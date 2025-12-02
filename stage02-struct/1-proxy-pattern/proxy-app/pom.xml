@@ -5,22 +5,30 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hxl.design.pattern</groupId>
-        <artifactId>design-pattern</artifactId>
+        <artifactId>proxy-pattern</artifactId>
         <version>1.0.1</version>
     </parent>
 
-    <packaging>pom</packaging>
-
-    <artifactId>behavior</artifactId>
-
-    <modules>
-        <module>1-strategy-pattern</module>
-    </modules>
+    <artifactId>proxy-app</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hxl.design.pattern</groupId>
+            <artifactId>static-proxy</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hxl.design.pattern</groupId>
+            <artifactId>dynamic-proxy</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>

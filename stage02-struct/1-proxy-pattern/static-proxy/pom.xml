@@ -5,17 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hxl.design.pattern</groupId>
-        <artifactId>design-pattern</artifactId>
+        <artifactId>proxy-pattern</artifactId>
         <version>1.0.1</version>
     </parent>
 
-    <packaging>pom</packaging>
-
-    <artifactId>behavior</artifactId>
-
-    <modules>
-        <module>1-strategy-pattern</module>
-    </modules>
+    <artifactId>static-proxy</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
